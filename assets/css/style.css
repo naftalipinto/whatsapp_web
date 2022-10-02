@@ -1,1 +1,13 @@
 /* Este é o arquivo de css principal */
+
+/* Criei aqui as minhas variáveis do css */
+:root {
+	--theme-primary-color: #00A884;
+	--theme-secondary-color: #111B21;
+}
+
+
+/* Testei aqui as minhas variáveis do css */
+body {
+	background-color: var(--theme-primary-color);
+}
