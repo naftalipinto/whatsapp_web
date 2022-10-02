@@ -6,8 +6,29 @@
 	--theme-secondary-color: #111B21;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
 
-/* Testei aqui as minhas variáveis do css */
 body {
+	background-color: var(--theme-secondary-color);
+}
+
+header {
+	padding: 25px 170px 120px;
 	background-color: var(--theme-primary-color);
 }
+
+.brand {
+	display: flex;
+	align-items: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
