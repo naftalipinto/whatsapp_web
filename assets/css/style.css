@@ -1,6 +1,11 @@
 /* Este é o arquivo de css principal */
 
 /* Criei aqui as minhas variáveis do css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+
 :root {
 	--theme-primary-color: #00A884;
 	--theme-secondary-color: #111B21;
@@ -31,4 +36,50 @@ header {
 .logo {
 	margin-right: 10px;
 }
+
+.front{
+	position: absolute;
+	top: 65px;
+	left:20%;
+	height: 80vh;
+	width: 900px;
+	background: white;
+	display: flex;
+}
+
+.left{
+	flex: 60;
+}
+
+.left h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	position: relative;
+	top: 50px;
+	left: 30px;
+	text-align: center;
+}
+
+.text-box{
+	display: block;
+	position: relative;
+	top: 90px;
+	left: 50px;
+
+}
+
+.text-box p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 550;
+	font-size: 18px;
+
+}
+
+.right{
+	flex: 40;
+	position: relative;
+	top: 50px;
+}
+
 
